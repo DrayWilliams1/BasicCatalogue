@@ -1,0 +1,69 @@
+/*
+  Name: Drayton Williams
+*/
+.allListings {
+  margin-top: 30px;
+}
+
+.menuButtons {
+  padding-top: 5px;
+  padding-left: 10px;
+}
+
+.menuButtonsAdmin {
+  position: fixed; top: 50pt; left: 0pt;
+  padding-left: 10px;
+  z-index: 9;
+}
+
+.loginButtons {
+  position: fixed; top: 0pt; right: 0pt;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+#topBanner {
+  position: fixed; top: 0pt; left: 0pt;
+  background-color: White;
+  z-index: 10;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+}
+
+#bottomCredits {
+  position: fixed; bottom: 0pt; left: 0pt; 
+  background-color: SteelBlue; 
+  padding: 10px 10px 10px 10px;
+  color: white;
+  z-index: 9;
+  width: 100%;
+}
+
+body {
+  padding-top: 60px;
+  padding-bottom: 120px;
+  background-color: Gainsboro;
+}
+
+@font-face {
+  font-family: 'Disney';
+  src: url('waltographUI.ttf');
+}
+    
+h1 {
+  font-family: Disney;
+}
+
+.productImage {
+  max-width: 60%;
+  height: auto;
+  display: block;
+  margin-left: 30px;
+}
+
+.overviewImage {
+  max-width: 40%;
+  height: auto;
+}

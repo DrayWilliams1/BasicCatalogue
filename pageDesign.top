@@ -1,0 +1,20 @@
+<header id="topBanner">
+    <!--
+      Name: Drayton Williams
+    -->
+    Shared Banner - COSC 2P89 Assignment 4
+    <!--Pressing logout button sends user to logout script which terminates session
+      and reverts user back to login page-->
+    <br>
+    <div class="menuButtons">
+      <a href="productListingPage.cgi">
+          <button>Product Listing</button>
+      </a>
+      <a href="wishlistPage.cgi">
+          <button>Wish List</button>
+      </a>
+      <a href="signupPage.cgi">
+          <button>Create Account</button>
+      </a>
+    </div>
+  </header>
